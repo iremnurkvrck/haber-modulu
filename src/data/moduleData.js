@@ -67,28 +67,28 @@ export const pretestQs = [
   {
     id: "pt1",
     hedef: "Hedef 1 – Yayıncı Analizi ve Değerlendirmesi",
-    senaryoGorsel: "/images/ontest1.png",
+    senaryoGorsel: "./images/ontest1.png",
     gorev:
       "Her hesap için güvenilir olup olmadığına karar verin ve kararınızı en az 2 somut kanıta dayandırarak açıklayın.",
   },
   {
     id: "pt2",
     hedef: "Hedef 2 – Haberde Sunulan Kaynağı Doğrulama",
-    senaryoGorsel: "/images/ontest2.png",
+    senaryoGorsel: "./images/ontest2.png",
     gorev:
       "Bu haberde kaynak var mı? Varsa yeterli mi? Gerekçenizi yazın ve bu haberi doğrulamak için ne yapardınız?",
   },
   {
     id: "pt3",
     hedef: "Hedef 3 – Başlık ile İçerik Arasındaki Uyumu Analiz Etme",
-    senaryoGorsel: "/images/ontest3.png",
+    senaryoGorsel: "./images/ontest3.png",
     gorev:
       "Bu haberi nasıl değerlendirirsiniz? Başlık ile içerik arasındaki farkı ve duygusal dil kullanımını açıklayın.",
   },
   {
     id: "pt4",
     hedef: "Hedef 4 – Haberdeki Görseli Sorgulama",
-    senaryoGorsel: "/images/ontest4.png",
+    senaryoGorsel: "./images/ontest4.png",
 
     gorev:
       "Bu görseli ters görsel arama yöntemiyle nasıl inceleyeceğinizi adım adım açıklayın ve şu soruları yanıtlayın: Bu görsel daha önce nerede kullanılmış olabilir? Orijinal bağlamını nasıl tespit edersiniz?",
@@ -96,7 +96,7 @@ export const pretestQs = [
   {
     id: "pt5",
     hedef: "Hedef 5 – Haberi Bağımsız Kaynaklarla Karşılaştırma",
-    senaryoGorsel: "/images/ontest5.png",
+    senaryoGorsel: "./images/ontest5.png",
     gorev:
       "Bu haber başlığını en az iki farklı kaynakta aratın ve bulduğunuz sonuçları karşılaştırın. Bu haberi doğrulayabildiniz mi? Hangi kaynaklara ulaştınız ve sonuçlar birbiriyle tutarlı mıydı? Açıklayın.",
   },
@@ -108,7 +108,7 @@ export const posttestQs = [
     id: "post1",
     hedef: "Hedef 1 – Yayıncı Analizi ve Değerlendirmesi",
     senaryo: "Önünüzde aşağıdaki üç sosyal medya hesabı var:",
-    senaryoGorsel: "/public/images/sontest1.png",
+    senaryoGorsel: "./images/sontest1.png",
     gorev:
       "Her hesap için güvenilir olup olmadığına karar verin ve kararınızı en az 2 somut kanıta dayandırarak açıklayın.",
   },
@@ -116,7 +116,7 @@ export const posttestQs = [
     id: "post2",
     hedef: "Hedef 2 – Haberde Sunulan Kaynağı Doğrulama",
     senaryo: '"Araştırmaya göre 1 milyardan fazla insan sağır olabilir"',
-    senaryoGorsel: "/public/images/sontest2.png",
+    senaryoGorsel: "./images/sontest2.png",
     link: "https://www.ensonhaber.com/arastirmaya-gore-1-milyardan-fazla-insan-sagir-olabilir-h11071316",
     gorev:
       "Bu haberde kaynak var mı? Varsa yeterli mi? Gerekçenizi sözel olarak belirtiniz ve bu haberi doğrulamak için hangi adımları atarsınız?",
@@ -126,7 +126,7 @@ export const posttestQs = [
     hedef: "Hedef 3 – Başlık ile İçerik Arasındaki Uyumu Analiz Etme",
     senaryo:
       "Tükettiğiniz anda kalın bağırsağı bitiriyor! Bu 4 besin iç organların sessiz katili",
-    senaryoGorsel: "/public/images/sontest3.png",
+    senaryoGorsel: "./images/sontest3.png",
     link: "https://www.sabah.com.tr/roza/galeri/saglik/tukettiginiz-anda-kalin-bagirsagi-bitiriyor-bu-4-besin-ic-organlarin-sessiz-katili",
     gorev:
       "Bu haberi nasıl değerlendirirsiniz? Başlık ile içerik arasındaki farkı ve duygusal dil kullanımını örnekleriyle açıklayın.",
@@ -134,7 +134,7 @@ export const posttestQs = [
   {
     id: "post4",
     hedef: "Hedef 4 – Haberdeki Görseli Sorgulama",
-    senaryoGorsel: "/public/images/sontest4.png",
+    senaryoGorsel: "./images/sontest4.png",
 
     senaryo:
       "Adana yine erken kutladı! Şehirde 2024 yılbaşı dekorasyonları kuruldu, tüm dünyadan önce yeni yıla geçtiler!",
@@ -147,7 +147,7 @@ export const posttestQs = [
     hedef: "Hedef 5 – Haberi Bağımsız Kaynaklarla Karşılaştırma",
     senaryo:
       'Sosyal medyada şu başlıklı bir haber hızla yayılıyor:\n\n"Deprem uzmanı Prof. Dr. Cenk Yaltırak 6 Şubat depreminin ardından açıkladı: "İstanbul da 2026 ya kadar deprem olacak! Paylaşın, herkes hazırlıklı olsun!"',
-    senaryoGorsel: "/public/images/sontest5.png",
+    senaryoGorsel: "./images/sontest5.png",
     gorev:
       "Bu haber başlığını en az iki farklı kaynakta aratın ve sonuçları karşılaştırın. Bu haberi doğrulayabildiniz mi? Hangi kaynaklara ulaştınız? Sonuçlar birbiriyle tutarlı mıydı? Gerekçeli olarak açıklayın.",
   },
@@ -170,7 +170,7 @@ export const learnSteps = [
     info: "Sosyal medyada karşımıza çıkan her bilgi doğru olmayabilir. Bu nedenle ilk adım, bilgiyi paylaşan hesabı tanımaktır.\n\nDikkat etmeniz gereken noktalar:\n\n📅 Hesap Ne Zaman Açılmış?\nYeni açılmış hesaplar bazen yanıltıcı içerikler yaymak için kullanılabilir.\n\n✔️ Doğrulama Rozeti Var mı?\nResmi kurumlar, gazeteciler ve tanınmış kişiler genellikle doğrulanmış hesap kullanır.\n\n👤 Profil Bilgileri Güven Veriyor mu?\nProfil fotoğrafı, biyografi ve kullanıcı adı birbiriyle uyumlu olmalıdır.\n\n📰 Daha Önce Neler Paylaşmış?\nHesabın geçmiş paylaşımlarına göz atın. Sürekli aynı konuda ve tutarlı içerikler paylaşması güvenilirlik açısından önemlidir.",
     example:
       "Bir haberi gördüğünüzde hemen paylaşır mıydınız?\n\nHesap A:\n• 3 hafta önce açılmış\n• Profil fotoğrafı belirsiz\n• Sadece sansasyonel haberler paylaşıyor\n\nHesap B:\n• 8 yıldır aktif\n• Doğrulanmış hesap\n• Resmi bir kuruma bağlı\n• Düzenli ve tutarlı içerikler paylaşıyor\n\nSizce hangisine daha çok güvenirsiniz? Kararınızı hangi göstergelere dayanarak verdiğinizi düşünün.",
-    image: "/public/images/uygulama1.png",
+    image: "./images/uygulama1.png",
     chips: [],
   },
   {
@@ -188,7 +188,7 @@ export const learnSteps = [
     info: 'Güvenilir kaynak: "Türkiye İstatistik Kurumu\'nun Mart 2024 raporuna göre…"\nMuğlak kaynak: "Uzmanlar açıkladı…", "Araştırmacılara göre…"\n\nMuğlak ifadeler yetersiz kaynaklara işaret eder. Bağlantıya tıklayın: Kaynak gerçekten var mı? İddia ile uyumlu mu?',
     example:
       '"Uzmanlar açıkladı: Günde 1 bardak bu içeceği içenler kanserden korunuyor." – Bu haberde hangi uzmanlar? Nerede çalışıyorlar? Araştırma nerede yayımlandı? Bunların yanıtsız kalması haberi şüpheli yapar.\n\nAdım adım: Bağlantıya tıkla → İçeriği oku → İddia ile karşılaştır.',
-    image: "/public/images/uygulama2.png",
+    image: "./images/uygulama2.png",
 
     chips: [],
   },
@@ -206,7 +206,7 @@ export const learnSteps = [
     info: "Manipülatif başlıklarda sıkça kullanılan tetikleyici ifadelere dikkat edin. Bu kelimeler okuyucuda acele ve panik duygusu yaratarak eleştirel düşünmeyi engeller.",
     example:
       '"FLAŞ! Türkiye\'de içme suları tehlikeli seviyelerde kirlenmiş, milyonlarca kişi risk altında!" – Haberin içeriğinde ise yalnızca "bazı şehirlerde su kalitesinin denetleneceği" yazıyor.\n\n"FLAŞ", büyük harf ve "milyonlarca kişi risk altında" okuyucuda panik yaratmak için kullanılmıştır. ',
-    image: "/public/images/uygulama3.png",
+    image: "./images/uygulama3.png",
     chips: [
       "FLAŞ",
       "ACİL",
@@ -231,7 +231,7 @@ export const learnSteps = [
     info: 'Ters görsel arama nedir? Bir görselin internette daha önce nerede kullanıldığını bulmanızı sağlar.\n\nNasıl yapılır?\n① Görsele uzun basın\n② "Görseli ara" veya "Google\'da ara" seçeneğini seçin\n③ Sonuçları inceleyin: Görsel başka bir bağlamdan mı alınmış?',
     example:
       "WhatsApp'ta paylaşılan bir deprem haberindeki görsel üzerinde ters görsel arama yapıldığında aynı görselin 5 yıl önce başka bir ülkedeki farklı bir felakette kullanıldığı ortaya çıkabilir. Görsel bağlamı tamamen farklı – bu dezenformasyonun en yaygın yöntemidir.",
-    image: "/public/images/uygulama4.png",
+    image: "./images/uygulama4.png",
 
     chips: [],
   },
@@ -249,7 +249,7 @@ export const learnSteps = [
     info: "Gerçek bir haber genellikle birden fazla bağımsız kaynakta yer alır.\n\n• Haber yalnızca belirli ideolojik sitelerde mi çıkıyor?\n• Ana akım medya ve resmi kurumlar da haberden söz ediyor mu?\n\nArama tüyosu: Başlıktan 3-4 anahtar kelime seçip tarayıcıda aratın.",
     example:
       '"Türkiye\'de öğretmen maaşları yüzde elli artırılacak" aratıldığında haber yalnızca 2 bilinmeyen sitede çıkıyor, resmi kurumlarda bu açıklama yok, ana akım medyada yer almıyor. Bu durum haberin büyük olasılıkla yanlış bilgi içerdiğini gösterir.',
-    image: "/public/images/uygulama5.png",
+    image: "./images/uygulama5.png",
 
     chips: [],
   },
@@ -260,7 +260,7 @@ export const practiceItems = [
   {
     stepId: 1,
     title: "Hedef 1 – Yayıncı Analizi Uygulaması",
-    image: "/public/images/degerlendirme1.png",
+    image: "./images/degerlendirme1.png",
     senaryo:
       "Aşağıdaki görselde iki farklı sosyal medya hesabı yer almaktadır. Her hesabın profil bilgilerini, takipçi sayısını ve paylaşım geçmişini inceleyin.",
     gorev:
@@ -271,7 +271,7 @@ export const practiceItems = [
     title: "Hedef 2 – Kaynak Doğrulama Uygulaması",
     senaryo:
       "Aşağıda forum.donanimhaber.com sitesinden alınmış bir haberin içeriğini görüntülüyorsunuz.",
-    image: "/public/images/degerlendirme2.png",
+    image: "./images/degerlendirme2.png",
 
     link: "https://forum.donanimhaber.com/nasa-gunes-e-sempanze-gonderecek--125052694",
 
@@ -283,7 +283,7 @@ export const practiceItems = [
     title: "Hedef 3 – Başlık-İçerik Analizi Uygulaması",
     senaryo:
       'Aşağıda sizinle "sabah.com.tr" haber sitesi üzerinden paylaşılan bir haberin içeriği verilmiştir. Haberin detaylı içeriğine linke tıklayarak erişebilirsiniz.',
-    image: "/public/images/degerlendirme3.png",
+    image: "./images/degerlendirme3.png",
     link: " https://www.sabah.com.tr/roza/galeri/aile/bebek-kahkahasinin-ardinda-yatan-sir-cozuldu-uzmanlar-acikladi-beyin-gelisiminin-en-onemli-sinyali",
     gorev:
       "Bu haberi nasıl değerlendirirsiniz? Başlık ile içerik arasındaki farkı ve duygusal dil kullanımını açıklayın.",
@@ -295,7 +295,7 @@ export const practiceItems = [
       "Sosyal medya üzerinde paylaşılan ve herkes tarafından büyük bir tepki alan içerik sizinle paylaşılmıştır.",
     gorev:
       "Bu görsele ters görsel arama uygulayın. Aramanın her adımını söyleyin ve şu soruları yanıtlayın:\n• Bu görsel daha önce nerede kullanılmış?\n• Orijinal bağlamı nedir?\n• Mevcut haberle uyumlu mu?\n•Haber doğruluğu nedir?",
-    image: "/public/images/degerlendirme4.png",
+    image: "./images/degerlendirme4.png",
     link: "https://x.com/Recepsamuncu1/status/1829793488025600478",
   },
   {

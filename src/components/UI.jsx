@@ -1,7 +1,6 @@
 import React from "react";
 import { PHASE_ORDER, PHASE_LABELS } from "../data/moduleData";
 
-// ─── PROGRESS BAR ────────────────────────────────────────────────────────────
 export function ProgressBar({ pct }) {
   return (
     <div className="progress-wrap">
@@ -10,7 +9,6 @@ export function ProgressBar({ pct }) {
   );
 }
 
-// ─── TOP BAR ─────────────────────────────────────────────────────────────────
 export function TopBar({ phaseLabel }) {
   return (
     <div className="topbar">
@@ -20,7 +18,6 @@ export function TopBar({ phaseLabel }) {
   );
 }
 
-// ─── PHASE STEPS INDICATOR ───────────────────────────────────────────────────
 export function PhaseSteps({ active, onNavigate }) {
   const phases = [
     "preeval",
@@ -64,7 +61,6 @@ export function PhaseSteps({ active, onNavigate }) {
   );
 }
 
-// ─── PHASE BANNER ────────────────────────────────────────────────────────────
 export function PhaseBanner({ icon, title, subtitle }) {
   return (
     <div className="phase-banner">
@@ -77,12 +73,10 @@ export function PhaseBanner({ icon, title, subtitle }) {
   );
 }
 
-// ─── CARD ────────────────────────────────────────────────────────────────────
 export function Card({ children, className = "" }) {
   return <div className={`card ${className}`}>{children}</div>;
 }
 
-// ─── RUBRIC TABLE ─────────────────────────────────────────────────────────────
 export function RubricTable({ rubric }) {
   return (
     <div className="rubric-wrap">
@@ -118,7 +112,6 @@ export function RubricTable({ rubric }) {
   );
 }
 
-// ─── SCENARIO BOX ────────────────────────────────────────────────────────────
 export function ScenarioBox({ text, gorsel, link }) {
   return (
     <div className="scenario-box">
@@ -156,12 +149,10 @@ export function ScenarioBox({ text, gorsel, link }) {
   );
 }
 
-// ─── ALERT ───────────────────────────────────────────────────────────────────
 export function Alert({ type = "info", children }) {
   return <div className={`alert alert-${type}`}>{children}</div>;
 }
 
-// ─── BUTTONS ─────────────────────────────────────────────────────────────────
 export function Btn({
   variant = "primary",
   size = "",
@@ -185,7 +176,6 @@ export function FlexEnd({ children }) {
   return <div className="flex-end">{children}</div>;
 }
 
-// ─── SCORE CIRCLE ────────────────────────────────────────────────────────────
 export function ScoreCircle({ score, total }) {
   return (
     <div className="score-circle">
@@ -195,7 +185,6 @@ export function ScoreCircle({ score, total }) {
   );
 }
 
-// ─── SECTION LABEL ───────────────────────────────────────────────────────────
 export function SectionLabel({ children }) {
   return <p className="section-label">{children}</p>;
 }

@@ -95,7 +95,7 @@ export default function PracticeScreen({ onFinish, onNavigate }) {
                 var.
               </p>
               <img
-                src="/images/final.png"
+                src="./images/final.png"
                 alt="Final senaryosu görseli"
                 style={{
                   width: "100%",
